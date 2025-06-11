@@ -1,4 +1,5 @@
-# Project name: LibNet
+# Project description
+## Project name: LibNet
 **Code repository:** https://github.com/IU-Capstone-Project-2025/libnet
 
 **Project Idea:**
@@ -7,9 +8,6 @@ LibNet is a service that unifies the search of the books for a user, making it m
 **Problem Statement:**
 Many libraries struggle with outdated, clunky websites that lack functionality and a pleasant user experience. This makes it harder for students and staff to access resources efficiently.
 
-**Target Users:**\
-1)Students – Easy access to books, research materials, and library services.\
-2)Library Administrators – A simple, customizable platform to manage their digital presence.
 
 
 | Team Member      | Telegram Alias    | Email Address                   | Track                                      | Responsibilities                                                                                 |
@@ -20,7 +18,7 @@ Many libraries struggle with outdated, clunky websites that lack functionality a
 | Anna Serova      | @kbvsp            | a.serova@innopolis.university   | Lead Frontend Developer                    | Handling all frontend development tasks.                                                         |
 | Artem Ostapenko  | @ostxxp           | a.ostapenko@innopolis.university| Lead Backend Developer, Project Manager    | Organization of work and communication. Maintaining FastAPI (Python). Develops backend services. |
 
-
+# Brainstorming 
 ## Ideas during brainstorming
 ### Financial Tracker App
 An app to track personal finances by integrating with bank APIs. Features include importing transactions from banks, spending forecasts, expense analysis, and suggestions for improving financial habits.
@@ -48,6 +46,11 @@ Competitor analysis shows that most library websites lack advanced features like
 Libraries are open to digital solutions that improve user experience and operational efficiency.\
 **Selected Idea**: This idea was chosen due to its feasibility, clear value proposition, and alignment with our team's capabilities.
 
+# Basic requirements
+
+## Target Users and their primary needs:
+1)Students – Easy access to books, research materials, and library services.\
+2)Library Administrators – A simple, customizable platform to manage their digital presence.
 
 ## Initial Scope (MVP – First Version):
 1)Book Catalog – Display book cards with key details (title, author, availability).\
@@ -76,7 +79,7 @@ quickly find the books I need.\
 2)As a student, I want to save my favorite books in a separate list so that I can easily return to them later.\
 3)As a librarian, I want to mark books as "out," "in stock," or "on hold" to track their availability.
 
-### Tech Stack
+## Tech Stack
 To ensure scalability, high performance, and development convenience, we have selected the following technology stack.
 
 **Backend:**
@@ -85,9 +88,9 @@ To ensure scalability, high performance, and development convenience, we have se
 
 **FastAPI** is a modern framework that delivers:
 
--High performance.\
--Seamless integration with PostgreSQL.\
--Support for asynchronous queries.
+- High performance.
+- Seamless integration with PostgreSQL.
+- Support for asynchronous queries.
 
 **Frontend:**
 
@@ -109,11 +112,20 @@ Seamless deployment to staging/production.
 
 For task management and project coordination, our team uses **ClickUp**.
 
-### Weekly commitments
+## Weekly commitments
+### Individual contribution of each participant
 | Team Member     | Completed Work                                                                                        |
 |-----------------|-------------------------------------------------------------------------------------------------------|
 | Ivan Murzin     | Started UX/UI design development                                                                      |
 | Aliya Sagdieva  | Сreated a report and started UX/UI design development                                                 |
 | Alena Averina   | Implemented containerization using Dockerfiles and Docker compose, participated in report preparation |
 | Anna Serova     | Started UX/UI design development                                                                      |
-| Artem Ostapenko | Created boilerplate and base for API launch                                                           |
+| Artem Ostapenko | Created boilerplate and base for API launch<br/>                                                           |
+
+
+# Confirmation of the code’s operability
+
+We confirm that the code in the main branch:
+
+- [ ] In working condition.
+- [ ] Run via docker-compose (or another alternative described in the README.md). 
