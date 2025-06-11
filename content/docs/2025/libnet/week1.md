@@ -122,6 +122,7 @@ For task management and project coordination, our team uses **ClickUp**.
 | Anna Serova     | Started UX/UI design development                                                                      |
 | Artem Ostapenko | Created boilerplate and base for API launch<br/>                                                           |
 
+Link to design in Figma: https://www.figma.com/design/PEK6pAX4gh7f5oO9C0jNfq/libnet?node-id=0-1&t=sEVJZ4Fg0AY8jxIw-1
 
 # Confirmation of the code’s operability
 
